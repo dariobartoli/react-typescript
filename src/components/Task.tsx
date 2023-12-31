@@ -8,7 +8,7 @@ type Props = {
 const Task = ({task, deleteTask}: Props) => {
   return (
     <div className='task'>
-        <span>{task}</span>
+        <div>{task}</div>
         <button onClick={deleteTask}>Borrar</button>
     </div>
   )
